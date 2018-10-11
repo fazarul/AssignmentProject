@@ -23,7 +23,7 @@ public class SolutionTest {
 
 	@Test
 	public void testSing() {
-		String result = br.sing();
+		String result = br.sing("Quack");
 		assertEquals(result,"true");
 	}
 	
